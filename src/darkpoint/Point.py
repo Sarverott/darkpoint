@@ -1,28 +1,4 @@
-
-default_hard_chars_replacing = [
-    ["\n","\\n"],
-    ["\'","\\'"],
-    ["\"","\\\""],
-    ["\b","\\b"],
-    ["\0","\\0"],
-    ["\t","\\t"],
-    ["\r","\\r"],
-    ["\\","\\\\"]
-]
-
-def soft_string(input_str, hard_char_replacing = default_hard_chars_replacing):
-    output_str = None # better return nothing to indicade error
-
-    for replacement in hard_char_replacing:
-         
-         if output_str is None:
-              output_str = input_str
-
-         output_str = output_str.replace(replacement[0],replacement[1])
-    
-    return output_str
-         
-
+#from . import helpers
 
 class Point:
 
@@ -40,7 +16,7 @@ class Point:
         return self.data
     
     ##def __repr__(self):
-        ##return f"<\"{soft_string(self.data)}\"-{self.context};{}
+        ##return f"<\"{helpers.soft_string(self.data)}\"-{self.context};{}
 
     def __getitem__(self, key):
         return self.hooks[key]
