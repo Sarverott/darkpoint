@@ -88,7 +88,10 @@ class Point:
             # tmp = None
             # print(f"\t\tchange context from {old_context} to {new_context}")
             for hook_name, hooked_point in self / new_context:
-                hooked_point.change_context_recursively(new_context, old_context)
+                if not hook_name == new_context and not hook_name == old_context:
+                    # for future developement: this statement should have on/off
+                    # switching with filter mechanics
+                    hooked_point.change_context_recursively(new_context, old_context)
                 # print(f"\t\t...asking point hooked on {hook_name}")
                 # if hooked_point.change_context_recursively(new_context, old_context):
                 # tmp = hook_name
