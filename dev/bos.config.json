@@ -8,9 +8,5 @@
         "python-framework",
         "python-package"
     ],
-    "ordersbook":{
-        "develope":"dev/*.sh",
-        "testing":"test/*.py",
-        "publish":"dev/*.js"
-    }
+    "ordersbook":"dev/bos.orderbook.json"
 }

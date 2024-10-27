@@ -1,0 +1,15 @@
+{
+    "script-namespaces":{
+        "develope":[
+            "dev/unix/*.sh",
+            "dev/dos/*.bat",
+            "dev/dos/*.ps"
+        ],
+        "testing":"tests/*.py",
+        "publish":[
+            "dev/*.js",
+            "tests/*.js"
+        ]
+    },
+    "orders-overwrite":[]
+}
