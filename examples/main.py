@@ -1,20 +1,20 @@
 #!/usr/bin/env python
 
-    # DarkPoint - technomantic framework for mnemonic toolkit that is in accordance with singular principles of thought model system 
-    # Copyright (C) 2024   Sett Sarverott <sett@sarverott.com> (https://sarverott.com)
+# DarkPoint - technomantic framework for mnemonic toolkit that is in accordance with singular principles of thought model system
+# Copyright (C) 2024   Sett Sarverott <sett@sarverott.com> (https://sarverott.com)
 
-    # This program is free software: you can redistribute it and/or modify
-    # it under the terms of the GNU General Public License as published by
-    # the Free Software Foundation, either version 3 of the License, or
-    # (at your option) any later version.
+# This program is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
 
-    # This program is distributed in the hope that it will be useful,
-    # but WITHOUT ANY WARRANTY; without even the implied warranty of
-    # MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-    # GNU General Public License for more details.
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
 
-    # You should have received a copy of the GNU General Public License
-    # along with this program.  If not, see <https://www.gnu.org/licenses/>.
+# You should have received a copy of the GNU General Public License
+# along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 # package installed checkup
 from _helpers import IS_PACKAGE_INSTALLED
@@ -46,39 +46,36 @@ from _7_absolute_path_traversal import EXAMPLE as absolute_path_traversal
 from _8_chaining import EXAMPLE as chaining
 from _9_context_change import EXAMPLE as context_change
 from _10_multiple_context_change import EXAMPLE as multiple_context_change
-#from _11_supreme_hooking import EXAMPLE
-#from _12_filters import EXAMPLE
+
+# from _11_supreme_hooking import EXAMPLE
+# from _12_filters import EXAMPLE
 
 # example 1
-quick_hooking( palace )
+quick_hooking(palace)
 
 # example 2
-hooking_path( palace )
+hooking_path(palace)
 
 # example 3
-printing( palace )
+printing(palace)
 
 # example 4
-print_hooks( palace )
+print_hooks(palace)
 
 # example 5
-for_loop_with_hooking_path( palace )
+for_loop_with_hooking_path(palace)
 
 # example 6
-hook_existing_points( palace )
+hook_existing_points(palace)
 
 # example 7
-absolute_path_traversal( palace )
+absolute_path_traversal(palace)
 
 # example 8
-chaining( palace )
+chaining(palace)
 
 # example 9
-context_change( palace )
+context_change(palace)
 
 # example 10
-multiple_context_change( palace )
-
-
-
-
+multiple_context_change(palace)
