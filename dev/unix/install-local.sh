@@ -16,4 +16,4 @@
     # along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 
-python3 -m pip install .
+python3 -m pip install -e .

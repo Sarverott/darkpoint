@@ -30,3 +30,10 @@ then
     echo "installing pip..."
     sudo apt install python3-pip -y
 fi
+
+python3 -m pip install --upgrade pip setuptools wheel
+python3 -m venv ./venv
+source ./venv/bin/activate
+
+sh ./dev/install.local.sh
+

@@ -1,7 +1,31 @@
-# Darkpoint
----
+```
+    2024 @ Sett Sarverott <sett@sarverott.com> (https://sarverott.com)
 
-This Python framework is technomantic mnemonic toolkit of thought model system with singular principles that allows to create memory palace with start placing in darkness.
+      █▀▄ ▄▀█ █▀█ █▄▀ █▀█ █▀█ █ █▄░█ ▀█▀   framework of technomantic memory system
+      █▄▀ █▀█ █▀▄ █░█ █▀▀ █▄█ █ █░▀█ ░█░   for mnemonic forrest placed in darkness
+
+    published under terms of GNU_GPLv3 license                                  
+```
+# DarkPoint - implementation in Python 
+
+>  2024 @ [Sett Sarverott](https://sarverott.github.io)
+
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/sarverott/darkpoint) 
+![GitHub last commit](https://img.shields.io/github/last-commit/sarverott/darkpoint?link=https%3A%2F%2Fgithub.com%2FSarverott%2Fdarkpoint%2Fgraphs%2Fcommit-activity) 
+![GitHub License](https://img.shields.io/github/license/sarverott/darkpoint?link=https%3A%2F%2Fraw.githubusercontent.com%2FSarverott%2Fdarkpoint%2Frefs%2Fheads%2Fmaster%2FLICENSE)
+![Python Version from PEP 621 TOML](https://img.shields.io/python/required-version-toml?tomlFilePath=https%3A%2F%2Fraw.githubusercontent.com%2FSarverott%2Fdarkpoint%2Frefs%2Fheads%2Fmaster%2Fpyproject.toml) 
+![PyPI - Downloads](https://img.shields.io/pypi/dm/darkpoint?label=PyPi%20downloads%20monthly&link=https%3A%2F%2Fpypi.org%2Fproject%2Fdarkpoint) 
+![PyPI - Python Version](https://img.shields.io/pypi/pyversions/darkpoint?label=version%20released%20on%20PyPi&link=https%3A%2F%2Fpypi.org%2Fproject%2Fdarkpoint) 
+![Pepy Total Downloads](https://img.shields.io/pepy/dt/darkpoint?label=Total%package%20downloads&link=https%3A%2F%2Fwww.pepy.tech%2Fprojects%2Fdarkpoint) 
+![GitHub Downloads (all assets, all releases)](https://img.shields.io/github/downloads/sarverott/darkpoint/total?label=Total%20downloads%20from%20Github&link=https%3A%2F%2Fgithub.com%2Fsarverott%2Fdarkpoint)
+
+
+This Python framework aims to process information simply and universally. 
+Idea of DarkPoint is based on my personal memorization structure and metaphorical explanation how it works. 
+
+Final version will be included in __Mind Toolkit of Technomancer__ as __Thought Model System__ with definition as __Singular Principles__ that allows to create memory palace with startpoint in darkness.
+
+---
 
 ### thought model system overview
 
@@ -21,14 +45,83 @@ These are basic rules that are essential
 - **For __The PALACE__ there is special starting point:** this is root placed in the middle of memories, every time after reset or starting, the point of focus lands here. For example my palace is: `dark void` and reset for me runs through simply thinking about `darkness`.
 - **All templates to work properly have to be accessible from the starting point:** These are declared as points too so all relevant information have be reached from the starting point.
 
+---
 
-### Examples
+## Examples
 
-```python
-print("darkpoint") #comment
+installation with pip:
+```sh
+pip install darkpoint
 ```
 
-### Copyrights
+including package
+```python
+# using points
+from darkpoint.Point import Point
+```
+
+### creating Point object
+```python
+#creating new mnemonic sanctuary
+palace = Point("darkness")
+```
+
+### quick hooking of new information
+```python
+palace["color"]="dark"
+```
+> - [example 1](https://github.com/sarverott/darkpoint/blob/master/examples/_1_quick_hooking.py)
+
+
+### longer hooking path of new data
+```python
+palace["color"]["time"]="dark time is night"
+palace["color"]["time"]["always"]="night is always in space as default constant daytime"
+palace["color"]["time"]["always"]["sun"]="local star for humanity"
+palace["color"]["time"]["always"]["sun"]["far"]="suns in further space from our sun are simply called stars"
+palace["color"]["time"]["always"]["sun"]["far"]["images"]="points created by stars on sky are constelations"
+```
+> - [example 2](https://github.com/sarverott/darkpoint/blob/master/examples/_2_hooking_path.py)
+> - [example 7](https://github.com/sarverott/darkpoint/blob/master/examples/_7_absolute_path_traversal.py)
+
+
+### to print just type
+```python
+print(palace)
+print(palace["color"])
+```
+> - [example 3](https://github.com/sarverott/darkpoint/blob/master/examples/_1_quick_hooking.py)
+> - [example 4](https://github.com/sarverott/darkpoint/blob/master/examples/_4_print_hooks.py)
+
+
+### hooking existing points
+```python
+# some hooking
+palace   *"time"   +palace["color"]["time"]
+palace   *"space"   +Point("natural state of space is darkness and empty void")
+# more hooking
+palace["space"]   *"time"   +palace["color"]["time"]["always"]
+palace["space"]   *"stars"   +palace["color"]["time"]["always"]["sun"]["far"]
+```
+> - [example 4](https://github.com/sarverott/darkpoint/blob/master/examples/_4_print_hooks.py)
+> - [example 5](https://github.com/sarverott/darkpoint/blob/master/examples/_5_for_loop_with_hooking_path.py)
+> - [example 6](https://github.com/sarverott/darkpoint/blob/master/examples/_6_hook_existing_points.py)
+> - [example 8](https://github.com/sarverott/darkpoint/blob/master/examples/_8_chaining.py)
+
+
+### context change
+```python
+# single
+palace/'DARK_VOID'
+# this and repeat with every hook until reaches another than old context
+palace["space"]//'###_SPACE_CONTEXT_INVASION_###'
+```
+> - [example 9](https://github.com/sarverott/darkpoint/blob/master/examples/_9_context_change.py)
+> - [example 10](https://github.com/sarverott/darkpoint/blob/master/examples/_10_multiple_context_change.py)
+
+---
+
+### Copyright (C) 2024   Sett Sarverott <sett@sarverott.com> (https://sarverott.com)
 
 
     DarkPoint - technomantic framework for mnemonic toolkit that is in accordance with singular principles of thought model system 

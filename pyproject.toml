@@ -1,12 +1,17 @@
 [project]
 name = "darkpoint"
-version = "0.0.1"
+dynamic = ["version"]
 authors = [
-  { name="Sett Sarverott", email="sarverott@gmail.com" },
+  { name="Sett Sarverott", email="sett@sarverott.com" },
+]
+maintainers = [
+  {name = "Sett Sarverott", email = "sett@sarverott.com"}
 ]
 description = "This Python framework is technomantic mnemonic toolkit of thought model system with singular principles that allows to create memory palace with start placing in darkness."
 readme = "README.md"
 requires-python = ">=3.8"
+license = {file = "LICENSE"}
+keywords = ["dark", "darkness", "memory"]
 classifiers = [
     "Programming Language :: Python :: 3",
     "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
