@@ -30,7 +30,7 @@ if not IS_PACKAGE_INSTALLED():
 
 # intro
 
-from darkpoint.Point import Point
+from darkpoint.point_declaration import Point
 
 palace = Point("darkness")
 

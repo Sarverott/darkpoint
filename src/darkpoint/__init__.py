@@ -19,7 +19,7 @@
 FLAG = True
 
 
-__all__ = ["Point"]
+__all__ = ["point_declaration"]
 
 if __name__ == "__main__":
 
