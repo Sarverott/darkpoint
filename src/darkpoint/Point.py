@@ -22,7 +22,7 @@
 
 class Point:
     """DarkPoint's point class"""
-    
+
     ROOT = None
 
     def __init__(self, data, context="dark void"):
@@ -60,7 +60,7 @@ class Point:
         return self  # Return self for chaining
 
     def __add__(self, point_to_hook):
-        if self.hook_name_buffer is not None and isinstance(point_to_hook, Point):
+        if isinstance(point_to_hook, Point):
             self.hooks[self.hook_name_buffer] = point_to_hook  # setting point on hook
             self.hook_name_buffer = self.context  # context as default hook_name_buffer
             return point_to_hook  # Return hooked point for chaining
@@ -80,11 +80,12 @@ class Point:
         # print("\t", self)
         # print(f"\t?-{self.context} == {old_context}")
         if self.context == old_context:
+            tmp = None
             # print(f"\t\tchange context from {old_context} to {new_context}")
-            self / new_context
-            for hook_name, hooked_point in self:
+            for hook_name, hooked_point in (self / new_context):
                 # print(f"\t\t...asking point hooked on {hook_name}")
-                hooked_point.change_context_recursively(new_context, old_context)
+                if hooked_point.change_context_recursively(new_context, old_context):
+                    tmp = hook_name
             return True
         else:
             # print("\t\tno context change")

@@ -19,6 +19,7 @@
 
 def default_hard_chars_replacing():
     """default replacing matrix"""
+
     return [
         ["\n", "\\n"],
         ["'", "\\'"],
@@ -31,9 +32,12 @@ def default_hard_chars_replacing():
     ]
 
 
-def soft_string(input_str, hard_char_replacing=default_hard_chars_replacing()):
+def soft_string(input_str, hard_char_replacing=None):
     """replaces hard escaping chars with softer backslashed versions"""
     output_str = None  # better return nothing to indicade error
+
+    if hard_char_replacing is None:
+        hard_char_replacing = default_hard_chars_replacing()
 
     for replacement in hard_char_replacing:
 

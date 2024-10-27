@@ -1,4 +1,4 @@
-#! /usr/bin/python
+"""DarkPoint: technomantic memories framework for mnemonic forrests in darkness"""
 
 # DarkPoint: technomantic memories framework for mnemonic forrests in darkness
 # Copyright (C) 2024   Sett Sarverott <sett@sarverott.com> (https://sarverott.com)
