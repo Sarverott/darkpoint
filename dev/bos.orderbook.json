@@ -9,6 +9,10 @@
         "publish":[
             "dev/*.js",
             "tests/*.js"
+        ],
+        "examples":[
+            "examples/main.py",
+            "examples/_*_*.py"
         ]
     },
     "orders-overwrite":[]

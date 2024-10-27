@@ -32,7 +32,7 @@ print("darkpoint") #comment
 
 
     DarkPoint - technomantic framework for mnemonic toolkit that is in accordance with singular principles of thought model system 
-    Copyright (C) 2024 Sett Sarverott (https://sarverott.com/) <sarverott@gmail.com>
+    Copyright (C) 2024   Sett Sarverott <sett@sarverott.com> (https://sarverott.com)
 
     This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
