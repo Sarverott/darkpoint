@@ -1,6 +1,6 @@
-#!/usr/bin/env python
+#! /usr/bin/python
 
-# DarkPoint - technomantic framework for mnemonic toolkit that is in accordance with singular principles of thought model system
+# DarkPoint: technomantic memories framework for mnemonic forrests in darkness
 # Copyright (C) 2024   Sett Sarverott <sett@sarverott.com> (https://sarverott.com)
 
 # This program is free software: you can redistribute it and/or modify
@@ -17,19 +17,20 @@
 # along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 
-default_hard_chars_replacing = [
-    ["\n", "\\n"],
-    ["'", "\\'"],
-    ['"', '\\"'],
-    ["\b", "\\b"],
-    ["\0", "\\0"],
-    ["\t", "\\t"],
-    ["\r", "\\r"],
-    ["\\", "\\\\"],
-]
+def default_hard_chars_replacing():
+    return [
+        ["\n", "\\n"],
+        ["'", "\\'"],
+        ['"', '\\"'],
+        ["\b", "\\b"],
+        ["\0", "\\0"],
+        ["\t", "\\t"],
+        ["\r", "\\r"],
+        ["\\", "\\\\"],
+    ]
 
 
-def soft_string(input_str, hard_char_replacing=default_hard_chars_replacing):
+def soft_string(input_str, hard_char_replacing=default_hard_chars_replacing()):
     output_str = None  # better return nothing to indicade error
 
     for replacement in hard_char_replacing:

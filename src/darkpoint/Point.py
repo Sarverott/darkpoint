@@ -1,6 +1,6 @@
-#!/usr/bin/env python
+#! /usr/bin/python
 
-# DarkPoint - technomantic framework for mnemonic toolkit that is in accordance with singular principles of thought model system
+# DarkPoint: technomantic memories framework for mnemonic forrests in darkness
 # Copyright (C) 2024   Sett Sarverott <sett@sarverott.com> (https://sarverott.com)
 
 # This program is free software: you can redistribute it and/or modify
@@ -64,7 +64,7 @@ class Point:
             self.hook_name_buffer = self.context  # context as default hook_name_buffer
             return point_to_hook  # Return hooked point for chaining
         else:
-            raise ValueError(f"Point's hook_name_buffer can't be None!!!")
+            raise ValueError("Point's hook_name_buffer can't be None!!!")
 
     def __iter__(self):
         return iter(self.hooks.items())

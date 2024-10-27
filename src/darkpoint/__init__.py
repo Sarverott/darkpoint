@@ -1,6 +1,6 @@
-#!/usr/bin/env python
+#! /usr/bin/python
 
-# DarkPoint - technomantic framework for mnemonic toolkit that is in accordance with singular principles of thought model system
+# DarkPoint: technomantic memories framework for mnemonic forrests in darkness
 # Copyright (C) 2024   Sett Sarverott <sett@sarverott.com> (https://sarverott.com)
 
 # This program is free software: you can redistribute it and/or modify
@@ -16,14 +16,14 @@
 # You should have received a copy of the GNU General Public License
 # along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
-flag = True
+FLAG = True
 
 
 __all__ = ["Point"]
 
 if __name__ == "__main__":
 
-    if flag:
+    if FLAG:
         print(
             "\n\n\t \33[7m                   ",
             "                 \33[0m",
@@ -38,7 +38,7 @@ if __name__ == "__main__":
             "\n\tThis is free software, and you are welcome to redistribute it",
             "\n\tunder certain conditions of license GNU GPL v3.\n\n",
         )
-        flag = False
+        FLAG = False
 
     print("darkpoint lounch")
 else:
