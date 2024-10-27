@@ -1,4 +1,4 @@
-#! /usr/bin/python
+"""DarkPoint's point class declaration file"""
 
 # DarkPoint: technomantic memories framework for mnemonic forrests in darkness
 # Copyright (C) 2024   Sett Sarverott <sett@sarverott.com> (https://sarverott.com)
@@ -21,7 +21,8 @@
 
 
 class Point:
-
+    """DarkPoint's point class"""
+    
     ROOT = None
 
     def __init__(self, data, context="dark void"):
@@ -74,6 +75,7 @@ class Point:
         return self  # Return self for chaining
 
     def change_context_recursively(self, new_context, old_context):
+        """multiple hooked points can have changed context value with that"""
         # print(f"### POINT // ###")
         # print("\t", self)
         # print(f"\t?-{self.context} == {old_context}")

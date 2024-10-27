@@ -1,4 +1,4 @@
-#! /usr/bin/python
+"""DarkPoint's helper functions toolset file"""
 
 # DarkPoint: technomantic memories framework for mnemonic forrests in darkness
 # Copyright (C) 2024   Sett Sarverott <sett@sarverott.com> (https://sarverott.com)
@@ -18,6 +18,7 @@
 
 
 def default_hard_chars_replacing():
+    """default replacing matrix"""
     return [
         ["\n", "\\n"],
         ["'", "\\'"],
@@ -31,6 +32,7 @@ def default_hard_chars_replacing():
 
 
 def soft_string(input_str, hard_char_replacing=default_hard_chars_replacing()):
+    """replaces hard escaping chars with softer backslashed versions"""
     output_str = None  # better return nothing to indicade error
 
     for replacement in hard_char_replacing:
