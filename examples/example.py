@@ -16,7 +16,11 @@
     # You should have received a copy of the GNU General Public License
     # along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
-from ..src.darkpoint.Point import Point
+from darkpoint.Point import Point 
+# WARNING: needs package instalation
+# SEE:
+#   - dev/install-local.sh
+#   - dev/install-public.sh
 
 # definition of palace
 
