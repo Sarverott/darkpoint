@@ -131,11 +131,12 @@ palace/'DARK_VOID'
 palace["space"]//'###_SPACE_CONTEXT_INVASION_###'
 ```
 
-### Links
+## Links
 - Documentation: https://darkpoint.readthedocs.io
 - GitHub repository: https://github.com/sarverott/darkpoint
 - Project on PyPi: ~~https://pypi.org/project/darkpoint~~ _(Not yet available - pending project publication)_
 - Docker image: _(Not yet available - until PyPi publication container developement suspended)_
+- CHANGELOG: https://github.com/Sarverott/darkpoint/blob/master/docs/changelog.md
 
 ---
 
