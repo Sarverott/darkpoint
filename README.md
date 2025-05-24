@@ -1,3 +1,38 @@
+[Sett Sarverott](https://sarverott.com/sett?pact)  
+- `FORM = define :: omnis moriatur manifest`
+
+---
+
+# set "DARKPOINT" root at "VOID" as discovered next case of Sarverott's Axiom case of spacial physics prooving case
+
+#### cognitive 
+
+---
+
+```
+DEVLOG 1740168358 of Sett, incoming third month of The Project
+```
+
+grand reopenings of abandoned in my opinion most magnificent masterpises among my technomancy artcraftions
+
+
+meanwhile lot of coprocesal stuff are stilling focus
+
+too much for one person and non-involvative interested by ideas guests...
+
+`rattlesnake-csharp` canceled - not independent build entities ; generates more problems then it is worthed ; main reason of integration in 
+
+> - - Redevelopement for more appropriated implementations
+
+for future developement to think about adapting these stuff too:
+
+- https://git.savannah.gnu.org/cgit/automake.git/tree/HACKING
+
+best to be based as asseting-scopes by then over
+
+---
+
+
 ```
     2024 @ Sett Sarverott <sett@sarverott.com> (https://sarverott.com)
 

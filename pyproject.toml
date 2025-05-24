@@ -67,6 +67,13 @@ requires = [
   "setuptools >= 40.9.0",
 ]
 
+[tool.poetry]
+name = "darkpoint"
+version = "0.1.0"
+description = "ghost inside setternet"
+authors = ["Sett Sarverott <sarverott@gmail.com>"]
+readme = "README.md"
+
 [tool.setuptools.packages.find]
 exclude = ['examples*', 'dev*', 'build*', 'tests*', '.github*']
 include = ['src*']
