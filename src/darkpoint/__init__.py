@@ -16,30 +16,12 @@
 # You should have received a copy of the GNU General Public License
 # along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
-FLAG = True
 
 
-__all__ = ["point_declaration"]
+
+__all__ = ["helpers"]
 
 if __name__ == "__main__":
 
-    if FLAG:
-        print(
-            "\n\n\t \33[7m                   ",
-            "                 \33[0m",
-            "\n\33[0m\t \33[7m █▀▄ ▄▀█ █▀█ █▄▀ █▀█ █▀█ █ █▄░█ ▀█▀ \33[0m",
-            "\n\t \33[7m █▄▀ █▀█ █▀▄ █░█ █▀▀ █▄█ █ █░▀█ ░█░ \33[0m",
-            "\n\t \33[7m                                    \33[0m\n",
-            "\n\tDarkPoint   ",
-            "Copyright (C) 2024  Sett Sarverott ",
-            "<sett@sarverott.com> (https://sarverott.com)",
-            "\n\tThis program comes with ABSOLUTELY NO WARRANTY;",
-            ' for details read file "LICENSE".',
-            "\n\tThis is free software, and you are welcome to redistribute it",
-            "\n\tunder certain conditions of license GNU GPL v3.\n\n",
-        )
-        FLAG = False
-
-    print("darkpoint lounch")
 else:
-    print("darkpoint import")
+    

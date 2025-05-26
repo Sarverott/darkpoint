@@ -17,9 +17,17 @@
 # along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 
+def multirange(*args):
+    """allows to quickly make combined list with more than one range"""
+    return [
+        x for y in [
+            list(range(*z)) for z in args
+        ] for x in y
+    ]
+
+
 def default_hard_chars_replacing():
     """default replacing matrix"""
-
     return [
         ["\n", "\\n"],
         ["'", "\\'"],
